@@ -18,6 +18,8 @@ minreq = { version = "=2.2.1", features = ["https", "json-using-serde"] }
 serde = { version = "1.0", features = ["derive"] }
 nutexb = { git = "https://github.com/jam1garner/nutexb" }
 image = "0.23.10"
+lazy_static = "1.4"
+parking_lot = "0.11.2"
 
 [patch.crates-io]
 ring = { git = "https://github.com/skyline-rs/ring" }
